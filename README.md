@@ -27,7 +27,7 @@ Missing evidence is never treated as proof that a version is safe.
 ## Setup
 
 ```powershell
-pip install azure-identity azure-ai-projects python-dotenv typesafe_sdk
+pip install -r requirements.txt
 Copy-Item .env.template .env
 ```
 
